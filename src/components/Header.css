@@ -1,0 +1,26 @@
+.header {
+  height: 10vh;
+  background: rgb(170, 169, 169);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  margin-left: 4rem;
+  font-weight: 800;
+}
+
+.add-new {
+  margin-right: 4rem;
+  border-radius: 0.5rem;
+  padding: 0.7rem 2rem;
+  border: none;
+  font-size: large;
+  font-weight: 700;
+}
+
+.add-new:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
